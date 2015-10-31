@@ -1,0 +1,27 @@
+{
+    "name": "machour/yii2-swagger-ui",
+    "description": "Yii 2 Swagger UI",
+    "keywords": ["yii2", "swagger", "ui"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Achour",
+            "email": "machour@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/swagger-ui": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+             "machour\\yii2\\swagger\\ui": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
