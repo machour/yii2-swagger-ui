@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-             "machour\\yii2\\swagger\\ui": ""
+             "machour\\yii2\\swagger\\ui\\": ""
         }
     },
     "extra": {
